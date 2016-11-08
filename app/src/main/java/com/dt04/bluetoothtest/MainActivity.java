@@ -20,10 +20,10 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity 
 {
-	boolean isPine64 = true;
+	boolean isPine64 = false;
 
 	int REQUEST_ENABLE_BT = 13;
-	String TEST_BT_DEVICE_ADDR = "30:5A:3A:8E:20:C0";
+	String TEST_BT_DEVICE_ADDR = "34:C3:D2:7A:DD:B8";
 	String MY_UUID = "dt04";
 	String NAME = "bt_test";
 	String mRssiInfoStr; 
